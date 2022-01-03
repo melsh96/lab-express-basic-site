@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    background-image: url("../images/Stark\ Background.jpeg");
+    background-size: cover;
+}
+
+nav>a {
+    background-color: rgb(68, 68, 68, 30%);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    backdrop-filter: blur(100px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+nav>a:hover {
+    background-color: rgb(68, 68, 68, 60%);
+}
+
+ul {
+    margin-top: 100px;
+    list-style: none;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 200px;
+}

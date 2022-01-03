@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    background-image: url("../images/Stark\ Background.jpeg");
+    background-size: cover;
+}
+
+nav>a {
+    background-color: rgb(68, 68, 68, 30%);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    backdrop-filter: blur(100px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+nav>a:hover {
+    background-color: rgb(68, 68, 68, 60%);
+}
+
+.box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.box1 {
+    background-color: rgb(68, 68, 68, 10%);
+    width: 400px;
+    height: auto;
+
+    backdrop-filter: blur(25px);
+
+    padding: 70px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+}
+
+.box2 {
+    background-color: rgb(68, 68, 68, 10%);
+    background-image: url("../images/Arya\ Profile.jpeg");
+    background-size: cover;
+    width: 400px;
+    height: auto;
+    backdrop-filter: blur(100px);
+    padding: 70px;
+    border-radius: 10px;
+}

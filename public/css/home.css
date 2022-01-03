@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    background-image: url("../images/Desktop\ -\ 1ARYA\ WALL\ PAPER.png");
+    background-size: cover;
+}
+
+nav>a {
+    background-color: rgb(68, 68, 68, 30%);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    backdrop-filter: blur(100px);
+}
+
+nav {
+    margin-top: 850px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav>a:hover {
+    background-color: rgb(68, 68, 68, 60%);
+}
